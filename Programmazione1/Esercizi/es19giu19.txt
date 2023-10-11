@@ -1,0 +1,2 @@
+Il valore 16 è presente nella matrice.
+La somma della colonna 3 è di 124.

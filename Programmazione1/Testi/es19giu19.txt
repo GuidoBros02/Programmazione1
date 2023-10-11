@@ -1,0 +1,45 @@
+
+Una funzione che
+• riceve in ingresso una matrice di numeri interi.
+• Chiede all’utente di inserire i valori della prima riga.
+• Carica automaticamente i valori delle righe successive in questo modo: i valori su una riga sono il doppio dei valori sulla riga precedente.
+• Non restituisce niente.
+Esempio con 5 righe e 4 colonne:    2 3 6 9
+                                    4 6 12 18
+                                    8 12 24 36
+                                    16 24 48 72
+                                    32 48 96 144
+Facoltativo: gestire la matrice con i puntatori evitando la notazione con le parentesi quadre.
+
+Una funzione che
+• riceve in ingresso una matrice di numeri interi.
+• Visualizza i valori contenuti nella matrice con i relativi indici, come nell’esempio.
+• Non restituisce niente.
+Esempio:
+            0 1 2 3
+            - - - -
+    0   |   2 3 6 9
+    1   |   4 6 12 18
+    2   |   8 12 24 36
+    3   |   16 24 48 72
+    4   |   32 48 96 144
+
+Una funzione che
+• riceve in ingresso una matrice di numeri interi e un valore intero.
+• Ricerca tale valore nella matrice.
+• Restituisce 1 se presente, 0 se assente.
+
+Una funzione che
+• riceve in ingresso una matrice di numeri interi e l’indice di una colonna.
+• Se l’indice della colonna è compatibile con le dimensioni della matrice, restituisce la somma dei valori su tale colonna.
+• Se l’indice non è compatibile restituisce -1.
+Esempio: indice colonna: 1 ---> somma: 93
+
+La funzione main che
+• riceve in ingresso il nome di un file (da riga di comando).
+• Dichiara una matrice (usare delle costanti per le dimensioni).
+• Invoca la funzione per il caricamento della matrice.
+• Invoca la funzione che visualizza i valori nella matrice.
+• Chiede all’utente di inserire un valore intero da ricercare nella matrice. Quindi invoca la funzione di ricerca.
+• Chiede all’utente di inserire l’indice di una colonna. Quindi invoca la funzione per il calcolo della somma.
+• Apre il file; scrive nel file degli opportuni messaggi con i risultati della ricerca e della somma; chiude il file. 

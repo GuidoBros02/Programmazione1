@@ -1,0 +1,39 @@
+
+Una funzione che
+• riceve in ingresso una stringa (s).
+• Chiede all’utente di inserire una password che viene memorizzata in s.
+• La password deve essere composta da almeno 8 caratteri. Tra questi, almeno 3 devono essere lettere maiuscole.
+    Esempi: K1ABuCx. D1c;RC2v ?XbYZU3a
+• Finché la password non soddisfa i requisiti mostra un opportuno messaggio di errore e ripete la richiesta di inserimento.
+• Non restituisce niente
+
+Una funzione che
+• riceve in ingresso una stringa tramite puntatore.
+• Visualizza il messaggio “La password inserita e’ ”.
+• Utilizzando l’aritmetica dei puntatori visualizza i caratteri nella stringa separati dal simbolo - .
+• Esempi: K-1-A-B-u-C-x-. D-1-c-;-R-C-2-v ?-X-b-Y-Z-U-3-a
+• Non restituisce niente.
+
+Una funzione che
+• riceve in ingresso una stringa (s) e il nome di un file.
+• Salva s nel file in modo “criptato”: nel file ogni carattere di s viene sostituito dal carattere che si trova dopo 
+    3 posizioni nella tabella ASCII (allegata all’esercizio).
+Esempi: s: K1ABuCx. ---> file: N4DExF{1 
+        s: D1c;RC2v ---> file: G4f>UF5y
+        s: ?XbYZU3a ---> file: B[e\]X6d
+• Non restituisce niente.
+
+Una funzione che
+• riceve in ingresso una stringa (s1) e il nome di un file.
+• Legge da file la stringa “criptata” (s2).
+• Restituisce il valore 1 se s1 corrisponde a s2 decriptata; altrimenti restituisce 0
+
+La funzione main che
+• riceve in ingresso un solo parametro cioè il nome di un file. In caso contrario mostra un opportuno messaggio di errore e termina.
+• Dichiara una stringa di dimensione 30.
+• Invoca la funzione per impostare la password (stringa).
+• Invoca la funzione per visualizzare la password.
+• Invoca la funzione per salvare la password su file.
+• Chiede all’utente di re-inserire la password.
+• Invoca la funzione che confronta la password re-inserita con quella salvata su file.
+• Mostra un opportuno messaggio in base all’esito del confronto.

@@ -1,0 +1,40 @@
+
+Una funzione che
+• riceve in ingresso una matrice quadrata (m) composta da numeri interi, e due valori interi (a, b).
+• Carica in m dei valori casuali compresi tra a e b (inclusi).
+• Non restituisce niente.
+• Esempio:  a:1 b:9     m:  3   5   1
+                            2   7   9
+                            4   2   8
+
+Una funzione che
+• riceve in ingresso una matrice quadrata (m) composta da numeri interi.
+• Visualizza il contenuto di (m) in forma tabulata. Al termine di ogni riga visualizza la somma dei valori su tale riga.
+• Non restituisce niente.
+• Esempio:  3 5 1 somma: 9
+            2 7 9 somma: 18
+            4 2 8 somma: 14
+
+Una funzione che
+• riceve in ingresso una matrice quadrata (m) composta da numeri interi, un valore intero (x), un indice di riga (r) 
+    e un indice di colonna (c).
+• Cerca x in m, visitando m riga per riga.
+• Se x non è presente in m, memorizza (-1,-1) in (r,c).
+• Se x è presente in m, memorizza in (r,c) la posizione della prima occorrenza di x in m.
+• Non restituisce niente.
+• Esempio:  m:  3 5 1
+                2 7 9
+                4 2 8           x: 2 ----> r: 1 c: 0
+
+La funzione main che
+• riceve in ingresso, da riga di comando, due valori interi positivi (il primo deve essereminore del secondo) 
+    e il nome di un file. In caso contrario, mostra un opportuno messaggio di errore e termina.
+• Esempio: esercizio.out 1 9 valori.txt
+• Dichiara una matrice quadrata (di dimensione costante, a scelta).
+• Invoca la funzione per caricare la matrice passandole i due valori interi ricevuti in ingresso.
+• Invoca la funzione per visualizzare la matrice.
+• Chiede all’utente di inserire il valore da cercare nella matrice. Invoca la funzione per la ricerca. 
+    Visualizza il risultato (posizione o assente) tramite un opportuno messaggio.
+• Chiede all’utente di inserire l’indice di una riga. Invoca la funzione per la copia su file della riga. 
+    Visualizza l’esito della funzione tramite un opportuno messaggio 
+    (indice non compatibile / copia avvenuta / problemi con il file).

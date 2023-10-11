@@ -1,0 +1,44 @@
+
+Una funzione che
+• riceve in ingresso un vettore di numeri interi e un puntatore a file.
+• Carica nel vettore i valori strettamente positivi e dispari contenuti nel file 
+    (si assume che il file contenga una quantità di valori inferiore alla dimensione del vettore).
+• Mette il valore -1 come “tappo” del vettore.
+• Non restituisce niente
+
+Una funzione che
+• riceve in ingresso un vettore di numeri interi con -1 come “tappo”.
+• Visualizza indici e valori del vettore disponendoli verticalmente.
+• Esempio:  indici  valori
+            0       21
+            1       7
+            2       11
+            3       5
+            4       11
+            5       9
+• Non restituisce niente
+
+Una funzione che
+• riceve in ingresso un vettore (v) di numeri interi con -1 come “tappo”, e un valore intero (x).
+• Se x è presente nel vettore, restituisce l’indice della prima occorrenza di x nel vettore.
+• Se x è assente, restituisce -1.
+• Esempi:           v: 21 7 11 5 11 9 x: 11 ---> indice: 2
+                    v: 21 7 11 5 11 9 x: 31 ---> indice: -1
+
+Una funzione che
+• riceve in ingresso un vettore (v) di numeri interi con -1 come “tappo”, e un valore intero (x).
+• Inserisce x all’inizio del vettore mantenendo tutti i valori caricati in precedenza.
+    Esempio: v: 21 7 11 5 11 9 x: 23 ---> v: 23 21 7 11 5 11 9
+• Non restituisce niente.
+• Facoltativo: ricevere e gestire v e x tramite puntatori.
+
+La funzione main che
+• riceve in ingresso il nome di un file da riga di comando. In caso contrario mostra un opportuno messaggio di errore e termina.
+• Dichiara un vettore di interi, di dimensione 30.
+• Apre il file con il nome ricevuto in ingresso. Se il file non esiste mostra un opportuno messaggio di errore e termina.
+• Invoca la prima funzione per caricare il vettore da file e chiude il file.
+• Invoca la seconda funzione per visualizzare il contenuto del vettore.
+• Richiede all’utente di inserire un valore da cercare nel vettore, invoca la funzione di
+    ricerca e ne visualizza il risultato tramite un opportuno messaggio.
+• Richiede all’utente di inserire un valore da inserire nel vettore, invoca la funzione di
+    inserimento e invoca di nuovo la funzione per visualizzare il vettore.

@@ -1,0 +1,52 @@
+Una funzione che
+• riceve in ingresso una matrice quadrata di tipo intero, la sua dimensione, il nome di un file.
+• Tenta di aprire il file con quel nome.
+• Se il file esiste allora copia nella matrice i numeri positivi e pari presenti nel file fino a
+    riempire completamente la matrice. Quindi chiude il file.
+• Esempio:  file: 30 3 52 1 7 14 2 33 76 -2 98 4 -4 2 8 9 25 -10 88 ...
+            dimensione: 3
+            matrice:    30  52  14
+                        2   76  98
+                        4   2   8
+• Restituisce 1 se la matrice è stata caricata. Altrimenti restituisce 0.
+
+Una funzione che
+• riceve in ingresso una matrice quadrata di tipo intero e la sua dimensione.
+• Visualizza indici e valori della matrice in forma tabulata. In particolare visualizza in alto gli
+    indici di colonna e a sinistra gli indici di riga, come nell’esempio.
+• Esempio:      0   1   2
+                _   _   _
+        0   |   30  52  14
+        1   |   2   76  98
+        2   |   4   2   8
+• Non restituisce niente.
+
+Una funzione che
+• riceve in ingresso una matrice quadrata (m) di tipo intero, la sua dimensione (dim), un indice di riga (r), due parametri (p1, p2).
+• Se r è compatibile con dim allora
+    ◦ calcola e memorizza in p1 il valore minimo presente sulla riga di m con indice r;
+    ◦ calcola e memorizza in p2 il valore massimo presente sulla riga di m con indice r.
+• Esempio: 30   52  14
+            2   76  98
+            4   2   8          r: 0 ---> p1: 14 p2: 52
+• Se r non è compatibile con dim allora memorizza -1 sia in p1 sia in p2.
+• Non restituisce niente.
+
+Una funzione che
+• riceve in ingresso una matrice quadrata di tipo intero e la sua dimensione.
+• Scambia il contenuto della prima colonna con il contenuto dell’ultima colonna.
+• Esempio:  30  52  14          14  52  30
+            2   76  98  --->    98  76  2
+            4   2   8           8   2   4
+• Non restituisce niente.
+
+La funzione main che
+• deve ricevere in ingresso (da riga di comando) un solo parametro, cioè il nome di un file. In
+    caso contrario, mostra un opportuno messaggio di errore e termina. Esempio: esercizio.out valori.txt
+• Chiede all’utente la dimensione e dichiara una matrice quadrata di tale dimensione.
+• Invoca la funzione per caricare la matrice passando il nome di file ricevuto in ingresso. Se la
+    matrice non è stata caricata allora visualizza un opportuno messaggio di errore e termina.
+• Invoca la funzione per visualizzare la matrice.
+• Chiede all’utente di inserire l’indice di una riga. Invoca la funzione per il calcolo di minimo e
+    assimo. Visualizza i risultati oppure un opportuno messaggio di errore.
+• Invoca la funzione per lo scambio delle colonne. Quindi invoca di nuovo la funzione per visualizzare la matrice aggiornata.

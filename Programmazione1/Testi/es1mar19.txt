@@ -1,0 +1,42 @@
+
+Una funzione che
+• riceve in ingresso un vettore di numeri interi e il nome di un file.
+• Apre il file.
+• Carica nel vettore i numeri contenuti nel file (si assume che il file contenga valori
+    interi e positivi, la cui quantità è inferiore alla dimensione del vettore).
+• Mette il valore -1 come “tappo” del vettore.
+• Chiude il file.
+• Non restituisce niente.
+
+Una funzione che
+• riceve in ingresso un vettore di numeri interi con -1 come “tappo”.
+• Visualizza il contenuto del vettore seguendo la notazione indice: valore escludendo il
+    “tappo”. Esempio: 0: 22 1: 7 2: 10 3: 5 4:15 5: 8 ...
+• Non restituisce niente.
+
+Una funzione che
+• riceve in ingresso un vettore di numeri interi con -1 come “tappo”.
+• Calcola il valore minimo all’interno del vettore (il “tappo” non viene considerato nel
+    calcolo). Esempio: 22 7 10 5 15 8 ---> minimo: 5
+• Restituisce il valore minimo
+
+Una funzione che
+• riceve in ingresso due vettori di interi (v1, v2).
+• Copia in v2 i valori di v1 composti da due cifre.
+    Esempio: v1: 22 7 10 5 15 8 ---> v2: 22 10 15
+• Mette il valore -1 come “tappo” di v2.
+• Non restituisce niente.
+• Facoltativo: gestire i vettori tramite i puntatori e la loro aritmetica.
+
+La funzione main che
+• riceve in ingresso il nome di un file da riga di comando.
+• Dichiara due vettori di interi, ciascuno di dimensione 30.
+• Invoca la prima funzione per caricare il primo vettore da file.
+• Invoca la seconda funzione per visualizzare il contenuto del primo vettore.
+• Invoca la terza funzione per il calcolo del minimo del primo vettore. Ne visualizza il
+    risultato tramite un opportuno messaggio.
+• Invoca la quarta funzione per la copia parziale del primo vettore nel secondo.
+• Invoca di nuovo la seconda funzione per visualizzare il contenuto del secondo
+    vettore.
+• Invoca di nuovo la terza funzione per il calcolo del minimo del secondo vettore. Ne
+    visualizza il risultato tramite un opportuno messaggio

@@ -1,0 +1,47 @@
+
+Una funzione che
+• riceve in ingresso un vettore di interi, la sua dimensione (dim) e la quantità di valori da caricare (q).
+• Se q è almeno 2 ed è compatibile con dim allora
+• carica q valori pseudo-casuali composti da due o tre cifre (ad ogni esecuzione i valori devono cambiare).
+    Suggerimento: usare le funzioni rand() e srand(time(NULL)).
+• Inserisce il valore -1 come tappo.
+    Esempio:
+        q: 7 ---> vettore: 157 220 37 458 54 70 316 -1
+• Restituisce true.
+• Altrimenti restituisce direttamente false.
+
+Una funzione che
+• riceve in ingresso un vettore di interi con tappo (-1).
+• Visualizza indici e valori su due righe distinte, come mostrato nell’esempio, escludendo il tappo.
+    Esempio:
+        indici:     0   1   2   3   4   5   6
+        valori:     157 220 37  458 54  70  316
+• Non restituisce niente.
+
+Una funzione che
+• riceve in ingresso un vettore di interi con tappo (-1), e due parametri (p1, p2).
+• Memorizza in p1 il minimo dei valori presenti nelle posizioni con indici dispari (escludendo il tappo).
+• Memorizza in p2 il minimo dei valori presenti nelle posizioni con indici pari (escludendo il tappo).
+    Esempio:
+    indici: 0   1   2   3   4   5   6
+    valori: 157 220 37  458 54  70  316     ---> p1: 70 p2: 37
+• Non restituisce niente.
+
+Una funzione che
+• riceve in ingresso un vettore di interi con tappo (-1) e il nome di un file.
+• Copia nel file i valori del vettore che sono composti da esattamente due cifre (non copia il tappo).
+    Esempio: vettore: 157 220 37 458 54 70 316 ---> file: 37 54 70
+• Chiude il file.
+• Restituisce la quantità di valori copiati su file.
+
+La funzione main che
+• deve ricevere in ingresso (da linea di comando) esattamente due parametri. Altrimenti visualizza un
+opportuno messaggio di errore e termina.
+    ◦ I parametri sono: 1) la quantità di valori da caricare nel vettore; 2) il nome del file di testo.
+        Esempio: ./esercizio.out 7 valori.txt
+• Dichiara un vettore di interi, di dimensione 11 (costante).
+• Invoca la funzione per caricare il vettore; se il caricamento non è avvenuto visualizza un opportuno messaggio di errore e termina.
+• Invoca la funzione per visualizzare il vettore.
+• Invoca la funzione per il calcolo dei minimi; ne visualizza i risultati tramite un opportuno messaggio.
+• Invoca la funzione per la copia parziale del vettore su file; visualizza la quantità di valori copiati tramite
+    un opportuno messaggio.

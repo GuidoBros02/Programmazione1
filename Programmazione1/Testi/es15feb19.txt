@@ -1,0 +1,42 @@
+
+Una funzione che
+• riceve in ingresso un vettore di stringhe e il nome di un file.
+• Apre il file.
+• Carica nel vettore le parole contenute nel file.
+• Calcola la quantità di parole caricate.
+• Chiude il file.
+• Restituisce tale quantità.
+• Facoltativo: gestire il caso in cui non esiste il file con quel nome, ritornando -1.
+
+Una funzione che
+• riceve in ingresso un vettore di stringhe e la quantità di stringhe in esso contenute.
+• Visualizza il contenuto del vettore seguendo la notazione indice: parola e mostrando 3 parole per riga. Esempio:
+    0: Quel     1: ramo    2: del
+    3: lago     4: di      5: Como,
+    6: che      7: volge   8: a
+
+• Non restituisce niente.
+
+Una funzione che
+• riceve in ingresso un vettore di stringhe, la quantità di stringhe in esso
+    contenute, ed una parola.
+• Ricerca la parola nel vettore (Suggerimento: strcmp).
+• Restituisce 1 se la parola è presente; restituisce 0 se la parola è assente.
+
+Una funzione che
+• riceve in ingresso un vettore di stringhe e la quantità di stringhe in esso contenute.
+• Calcola il numero di parole che iniziano con una vocale (maiuscola o minuscola).
+• Restituisce tale numero
+
+La funzione main che
+• riceve in ingresso il nome di un file (da riga di comando).
+• Dichiara un vettore di 300 stringhe dove ogni stringa può contenere 30
+    caratteri al massimo.
+• Invoca la prima funzione per caricare il vettore da file.
+• Invoca la seconda funzione per visualizzare il contenuto del vettore.
+• Chiede all’utente di inserire una parola. Quindi invoca la terza funzione per
+    ricercare la parola nel vettore. Ne visualizza il risultato tramite un opportuno messaggio.
+• Invoca la quarta funzione per il conteggio e ne visualizza il risultato tramite un
+    opportuno messaggio.
+• Facoltativo: gestire i casi in cui il nome del file non esiste o non viene indicato
+    da riga di comando, mostrando i rispettivi messaggi di errore.

@@ -1,0 +1,24 @@
+Una funzione che
+- riceve in ingresso un vettore di numeri interi e il nome di un file di testo.
+- Tenta di aprire il file.
+- Se l’apertura fallisce, restituisce 0.
+- Se l’apertura ha successo
+- copia dal file al vettore i valori strettamente positivi e dispari (si assume che il
+    file contenga una quantità di valori inferiore alla dimensione del vettore).
+- Chiude il file.
+- Mette il valore -1 come “tappo” del vettore.
+- Restituisce 1.
+
+La funzione main che
+• riceve in ingresso il nome di un file da riga di comando. In caso contrario mostra un
+opportuno messaggio di errore e termina.
+• Dichiara un vettore di interi, di dimensione 30.
+• Invoca la funzione per il caricamento del vettore da file.
+• Se il caricamento fallisce, mostra un opportuno messaggio di errore e termina.
+• Se il caricamento ha successo
+• invoca la funzione per visualizzare il contenuto del vettore.
+• Invoca la funzione per le somme e ne visualizza i risultati tramite opportuni
+messaggi.
+• Invoca la funzione per cancellare un elemento del vettore.
+• Invoca di nuovo la funzione per visualizzare il contenuto del vettore
+

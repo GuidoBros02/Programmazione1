@@ -1,0 +1,38 @@
+
+Una funzione che
+• riceve in ingresso una stringa.
+• Visualizza sullo schermo la stringa, circondata da una cornice composta dal carattere #
+(la lunghezza della cornice deve essere proporzionata alla lunghezza della stringa).
+• Non restituisce niente.
+• Esempio
+        stringa MICROsoft,WINdows,8.1? ---> ############################
+                                            #  MICROsoft,WINdows,8.1?  #
+                                            ############################ 
+
+Una funzione che
+• riceve in ingresso una stringa.
+• Restituisce la quantità di cifre (0, 1, 2, ..., 9) presenti nella stringa.
+• Esempio   stringa MICROsoft,WINdows,8.1? ---> 2 cifre 
+
+Una funzione che
+• riceve in ingresso due stringhe (s1, s2).
+• Copia in s2 le cifre presenti in s1.
+• Non restituisce niente.
+• Esempio s1 MICROsoft,WINdows,8.1? ---> s2 81
+• Facoltativo: gestire le stringhe con i puntatori, evitando la notazione con le parentesi quadre.
+
+Una funzione che
+• riceve in ingresso una stringa.
+• Esegue sulla stringa lo shift a sinistra non circolare, sostituendo il carattere scartato con il carattere _
+• Non restituisce niente.
+• Esempio MICROsoft,WINdows,8.1? ---> ICROsoft,WINdows,8.1?_
+
+La funzione main che
+• si aspetta in ingresso il nome di un file (da riga di comando).
+• Se il nome del file non viene passato, visualizza un opportuno messaggio di errore.
+• Se il nome viene passato, ma non esiste un file con quel nome, allora visualizza un opportuno messaggio di errore.
+• Se il file esiste, tenta di caricare una singola stringa da file; se il file è vuoto, visualizza un opportuno messaggio di errore, altrimenti esegue le seguenti operazioni:
+• invoca la funzione per visualizzare la stringa.
+• Invoca la funzione per la quantità di cifre nella stringa; quindi ne visualizza il risultato traminte un opportuno messaggio.
+• Invoca la funzione per la copia parziale della stringa in una seconda stringa; quindi invoca la funzione di visualizzazione applicata alla seconda stringa.
+• Invoca la funzione di shift applicata alla prima stringa; quindi invoca la funzione di visualizzazione applicata alla prima stringa.

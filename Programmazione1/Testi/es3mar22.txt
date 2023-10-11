@@ -1,0 +1,46 @@
+
+Una funzione
+• che riceve in ingresso un vettore di stringhe e il nome di un file.
+• Tenta di aprire il file con quel nome.
+• Se il file non esiste restituisce -1.
+• Se il file esiste
+• copia dal file al vettore le stringhe che contengono almeno 3 vocali minuscole.
+    Esempio:    file: Alessandria Asti Novara Vercelli Torino Como Milano
+                vettore: Alessandria Novara Vercelli Torino Milano
+• Chiude il file.
+• Restituisce il numero di stringhe copiate nel vettore.
+
+Una funzione che
+• riceve in ingresso un vettore di stringhe e la quantità di stringhe che contiene.
+• Visualizza indici e stringhe su due righe come mostrato nell’esampio.
+    Esempio:
+        indici      0           1      2        3       4
+        stringhe    Alessandria Novara Vercelli Torino  Milano
+• Non restituisce niente. 
+
+Una funzione che
+• riceve in ingresso un vettore di stringhe, la quantità di stringhe che contiene, un carattere, due indici (d1, d2).
+• Memorizza in d1 l’indice della prima parola che finisce con tale carattere. Se assente, memorizza -1.
+• Memorizza in d2 l’indice dell’ultima parola che finisce con tale carattere. Se assente, memorizza -1.
+Esempio:    Alessandria Novara Vercelli Torino Milano
+            carattere: a ---> d1: 0     d2: 1
+            carattere: o ---> d1: 3     d2: 4
+            carattere: i ---> d1: 2     d2: 2
+            carattere: u ---> d1: -1    d2: -1
+• Non restituisce nulla.
+
+Una funzione che
+• riceve in ingresso un vettore di stringhe e la quantità di stringhe che contiene.
+• Cancella dal vettore la prima stringa mantenendo tutte le altre.
+    Esempio: Alessandria Novara Vercelli Torino Milano ---> Novara Vercelli Torino Milano
+• Restituisce la quantità di stringhe aggiornata.
+
+La funzione main che
+• deve ricevere in ingresso (da linea di comando) un solo parametro, cioè il nome di un file. In caso
+    contrario, visualizza un opportuno messaggio di errore e termina. Esempio: ./esercizio.out stringhe.txt
+• Dichiara un vettore di 30 stringhe, ciascuna di 30 caratteri.
+• Invoca la funzione per caricare il vettore da file. Se il file non esiste visualizza un messaggio di errore e termina.
+• Invoca la funzione per visualizzare il vettore.
+• Chiede all’utente di inserire un carattere.
+• Invoca la funzione che ricerca le parole con tale carattere e ne visualizza il risultato tramite un opportuno messaggio.
+• Invoca la funzione per cancellare una stringa e invoca di nuovo la funzione per visualizzare il vettore

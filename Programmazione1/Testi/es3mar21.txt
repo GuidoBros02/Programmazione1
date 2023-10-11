@@ -1,0 +1,40 @@
+
+Una funzione che
+• riceve in ingresso un vettore di stringhe e un puntatore a file.
+• Carica nel vettore le stringhe (parole) presenti nel file che iniziano per vocale e sono
+composte da almeno 4 caratteri (si assume che il file contenga una quantità di stringhe inferiore alla dimensione del vettore).
+• Restituisce la quantità di stringhe caricate nel vettore.
+
+Una funzione che
+• riceve in ingresso un vettore di stringhe e la quantità di stringhe che contiene.
+• Visualizza il contenuto del vettore secondo la notazione indice) stringa, con il
+    carattere – come separatore, e disponendo tutto sulla stessa riga.
+• Esempio: 0) echo - 1) aircraft - 2) April – 3) Etna – 4) aircraft – 5) ethics
+• Non restituisce niente
+
+Una funzione che
+• riceve in ingresso un vettore (v) di stringhe, la quantità di stringhe che contiene, e una stringa (s).
+• Se s è presente nel vettore, restituisce l’indice dell'ultima occorrenza di s.
+• Se s è assente, restituisce -1.
+• Esempi:   v: echo aircraft April Etna aircraft ethics
+            s: aircraft ---> indice: 4
+            s: Etna     ---> indice: 3
+            s: August   ---> indice: -1
+
+Una funzione che
+• riceve in ingresso un vettore (v) di stringhe, la quantità (q) di stringhe che contiene, e una stringa (s).
+• Inserisce s come quarta stringa del vettore mantenendo tutte le stringhe caricate in precedenza.
+• Esempio: v: echo aircraft April Etna aircraft ethics s: advance ---> v: echo aircraft April advance Etna aircraft ethics
+• Aggiorna il valore di q.
+• Non restituisce niente.
+
+La funzione main che
+• riceve in ingresso il nome di un file da riga di comando. In caso contrario mostra un opportuno messaggio di errore e termina.
+• Apre il file con il nome ricevuto in ingresso. Se il file non esiste mostra un opportuno messaggio di errore e termina.
+• Dichiara un vettore di 30 stringhe, ciascuna di lunghezza massima 20.
+• Invoca la funzione per caricare il vettore da file; quindi chiude il file.
+• Invoca la funzione per visualizzare il contenuto del vettore.
+• Richiede all’utente di inserire una stringa (parola) da cercare nel vettore, invoca la
+    funzione di ricerca e ne visualizza il risultato tramite un opportuno messaggio.
+• Richiede all’utente di inserire una stringa (parola) da inserire nel vettore, invoca la 
+    funzione di inserimento e invoca di nuovo la funzione per visualizzare il vettore.
